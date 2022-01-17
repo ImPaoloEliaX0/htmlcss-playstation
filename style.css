@@ -1,18 +1,243 @@
-
+/* REGOLE COMMON */
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/*regole header*/
-
-
-
-.ms-header-top{
-    background-color: black;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-top-logo {
-    width: 5rem;
+/* testo grigio */
+.ms_text_grey{
+    color: grey;
+}
+/* FINE REGOLE COMMON */
+
+
+header .ms_nav_hover:hover{
+    color: #0070D1 !important;
+}
+
+.ms_visible, .ms_visible_none{
+    width: 10px;
+}
+
+.ms_nav_hover:hover .ms_visible{
+    display: none;
+}
+
+.ms_visible_none{
+    display: none;
+}
+
+.ms_nav_hover:hover .ms_visible_none{
+    display: inline;
+}
+
+.ms_bg_header{
+    background-color: #fff;
+}
+
+/* HEADER LOGO */
+.logo img{
+    width: 80px;
+    height: 40px;
+}
+
+/* HEADER BOTTOM CONTAINER */
+.ms_header_bottom{
+    margin-top: 40px;
+}
+
+/* HEADER BOTTOM RIGHT */
+.lens{
+    height: 25px;
+    vertical-align: middle;
+}
+
+.ms_btn_black:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    outline: 4px solid black;
+}
+/* FINE HEADER */
+
+
+/* JUMBOTRON BACKGOUND - FIRST PART */
+.jumbotron {
+    margin-top: 115px;
+}
+
+.ms_bg_jumbo{
+    height: 700px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* POSITION RELATIVE */
+.ms_relative{
+    position: relative;
+}
+
+/* POSITION ABSOLUTE */
+.ms_absolute_bottom{
+    position: absolute;
+    bottom: 20px;
+}
+
+/* GRANDEZZA LOGO RETURNALS */
+.ms_logo_returnals{
+    width: 50%;
+}
+
+/* ALTEZZA */
+.ms_height{
+    height: 100%;
+}
+
+/* BTN ACQUISTA ORA */
+.ms_btn_orange{
+    background-color: #CD3D0F;
+    color: #fff;
+}
+
+.ms_btn_orange:hover{
+    color: #fff;
+    border: 2px solid black;
+    outline: 4px solid #CD3D0F;
+}
+
+/* JUMBOTRON 1 GALLERY */
+
+/* BORDER */
+.ms_image_uno{
+    padding: 2px 2px;
+    border: 2px solid #0070D1;
+}
+
+.ms_images:hover{
+    padding: 2px 2px;
+    border: 2px solid #0070D1;
+    transform: scale(1);
+}
+/* RADIUS */
+.ms_rounded{
+    border-radius: 20px;
+}
+/* FINE GALLERY */
+
+/* SECTION PLAYSTATION E ACCESSORI DISPLAY*/
+
+
+/* bottone blu maggiori info */
+.ms_btn_blue{
+    background-color: #0070D1;
+    color: #fff;
+}
+
+.ms_btn_blue:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    outline: 2px solid #0070D1;
+}
+
+/* image play */
+.ms_play5 img{
+    width: 100%;
+}
+
+/* border bottom image play */
+.ms_selected{
+    border-bottom: 2px solid #0070D1;
+}
+
+/* item accessori play opacità */
+.ms_opacity{
+    filter: opacity(0.5);
+    border-bottom: 2px solid transparent;
+}
+
+/* item accessori play opacità hover + linea sotto */
+.ms_opacity:hover{
+    cursor: pointer;
+    filter: opacity(1);
+    
+    border-bottom: 2px solid #0070D1;
+    height: 100%;
+}
+/* FINE ACCESSORI */
+
+/* JUMBOTRON 2 IT TAKES TWO */
+.ms_bg_takes_two{
+    height: 700px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ms_logo_takes_two{
+    width: 40%;
+}
+
+/*  SECTION GAME-GRID */
+.ms_bg_dark{
+    background-color: #1F1F1F;
+}
+
+/*PLAYSTATION PLUS SECTION */
+.ms_bg_lightgray{
+    background-color: #BEBCBB;
+}
+
+.ms_plus img{
+    width: 50%;
+}
+
+.ms_btn_transparent{
+    color: #0070D1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ms_btn_transparent:hover{
+   border: 1px solid #BEBCBB;
+   outline: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+
+/* SECTION PLAYSTATION PLUS */
+.ms_bg_darkblue{
+    background-color: #161c3b;
+}
+
+.ms_btn_white{
+    color: black;
+    background-color: #fff;
+}
+
+.ms_btn_white:hover{
+    border: 1px solid #161c3b;
+    outline: 2px solid #fff;
+}
+
+/* FOOTER */
+.footer-menu{
+    background-color: #00439C;
+}
+
+.ms_play_logo{
+    width: 20%;
+    filter: brightness(0) invert(1);
+}
+
+.ms_list{
+    list-style-type: none;
+}
+
+.ms_sony{
+    width: 30%;
 }
